@@ -51,10 +51,15 @@ Amount Per Person: {split_bad}""")
 
 # Number 3
 
-print("You have 0 Coins")
+print('You have 0 coins')
+count = 0
+answer = ''
+while answer != 'No'
+    count = count + 1
+    print(f"""You have {count} coins.""")
+    answer = input("Do you want another?  ")
 
-
-
+    
 
 
 
