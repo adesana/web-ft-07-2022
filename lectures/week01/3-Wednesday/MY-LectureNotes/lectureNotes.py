@@ -1,4 +1,4 @@
-
+# Wednesday, day 2 notes. Austin Desana
 #? Strings 
 
 "I am a string."
