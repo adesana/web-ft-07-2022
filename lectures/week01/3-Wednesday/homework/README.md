@@ -40,6 +40,8 @@ Hints:
 - Remember that you need to convert the input from the user input to floats instead of ints. Use the `float` function instead of the `int` function.
 - To format a float number as a dollar value, use Python's formatting syntax: `"%.2f" % amount`
 
+
+
 #### 2. Tip Calculator 2
 
 Allow the ability to divide the check into a equal parts amount a number of people. The user will enter the number of people to be divided amongst. Example session:
