@@ -14,7 +14,7 @@ Total Amount: {total_good}""")
 elif service == 'Fair':
     print(f"""Total Tip: {fair}
 Total Amount: {total_fair}""")
-elif service == 'Bad':
+else:
     print(f"""Total Tip: {bad}
 Total Amount: {total_bad}""")
 
@@ -41,7 +41,7 @@ elif service == 'Fair':
     print(f"""Total Tip: {fair}
 Total Amount: {total_fair}
 Amount Per Person: {split_fair}""")
-elif service == 'Bad':
+else:
     print(f"""Total Tip: {bad}
 Total Amount: {total_bad}
 Amount Per Person: {split_bad}""")
