@@ -18,17 +18,30 @@
 # Pisces - TheMystic
 
 zodiac = {
-    
-}
+    'Aries' : 'The Warrior',
+    'Taurus' : 'The Builder',
+    'Gemini' : 'The Messenger',
+    'Cancer' : 'The Mother',
+    'Leo' : 'The King',
+    'Virgo' : 'The Analyst',
+    'Libra' : 'The Judge',
+    'Scorpio' : 'The Magician',
+    'Sagittarius' : 'The Gypsy',
+    'Capricorn' : 'The Father',
+    'Aquarius' : 'The Thinker',
+    'Pisces'  : 'The Mystic'}
 
 #? 1a. Retrieve information about your zodiac from the zodiac dictionary
+myZodiac = zodiac['Aquarius']
 
+print(myZodiac)
 #? 2. Given the following dictionary
 
 phonebook_dict = {
     'Alice': '703-493-1834',
     'Bob': '857-384-1234',
-    'Elizabeth': '484-584-2923'
+    'Elizabeth': '484-584-2923',
+    'Kareem' : '938-489-1234'
 }
 
 
@@ -37,6 +50,15 @@ phonebook_dict = {
 # 2c. Delete Alice's phone entry.
 # 2d. Change Bob's phone number to '968-345-2345'.
 # 2e. Print all the phone entries.
+
+print(phonebook_dict['Elizabeth'])
+
+del phonebook_dict['Alice']
+
+phonebook_dict['Bob'] = '968-345-2345'
+
+print(phonebook_dict)
+
 
 
 #? 3. Nested dictionaries
@@ -62,6 +84,7 @@ ramit = {
 # 3b. Write a python expression that gets the first of Ramit's interests.
 # 3c. Write a python expression that gets the email address of Jasmine.
 # 3d. Write a python expression that gets the second of Jan's two interests.
+
 
 
 #? 4. Letter Summary
