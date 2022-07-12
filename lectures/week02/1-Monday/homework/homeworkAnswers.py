@@ -69,7 +69,7 @@ def power(base, exponent):
     else:
         return base * power(base, exponent -1)
 
-print (power(2,9))
+print (power(2,2))
 
 
 # Number 2
