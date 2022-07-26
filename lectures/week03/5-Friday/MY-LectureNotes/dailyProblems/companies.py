@@ -28,12 +28,7 @@ html = """
 <body>
 """
 
-for i in companies:
-    business = i['business_name']
-    logo = i['logo']
-    html+=f"""
-    <div style='font-size:60px;'>{business} </div>\n"
-    <img src='{logo}' alt=''>\n"""
+#? Write code here
 
 html += """
 
