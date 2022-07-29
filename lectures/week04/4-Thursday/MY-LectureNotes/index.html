@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    /* div{
+        background-color: yellow;
+        height: 300px;
+    } */
+
+    #big-red-button{
+        background-color: tomato;
+        width: 200px;
+        height: 200px;
+        color: white;
+        font-size: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+
+
+
+
+</head>
+
+<body>
+    
+    <div id="big-red-button">
+
+        <div>big red button</div>
+        <div id="count">0</div>
+    </div>
+
+    <!-- <div id="one"> Hey Y'all</div> -->
+
+    <!-- <button onclick="alert('Button was clicked')">Click me!</button>
+
+
+    <div style="background-color: yellow;"" onmouseover="alert('Mouse over event just happened')"><h2>Hello World</h2></div> -->
+
+    <script>
+
+        //retrieve element from dom
+
+        let bigRedButtom = document.querySelector('#big-red-button')
+        let countDiv = document.querySelector('#count')
+
+
+        let clickCount = 0
+        bigRedButtom.addEventListener('click', ()=>{
+
+            clickCount++;
+            countDiv.textContent = clickCount.toString();
+        })
+
+
+        // retrieve element from dom
+        // let dom = document.querySelector('#one')
+        //attach an event listener
+        // dom.onclick = ()=>{
+
+        //     dom.setAttribute('style', 'background-color: green;')
+
+        // }
+
+    </script>
+
+
+</body>
+</html>
